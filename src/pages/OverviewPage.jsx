@@ -6,6 +6,7 @@ import Header from '../components/common/Header';
 import SalesOverviewChart from '../components/overview/SalesOverviewChart';
 import CategoryDistributionChart from '../components/overview/CategoryDistributionChart';
 import SalesChannelChart from '../components/overview/SalesChannelChart';
+import Footer from '../components/common/Footer';
 
 const OverviewPage = () => {
   return (
@@ -37,6 +38,7 @@ const OverviewPage = () => {
         </div>
 
       </main>
+      <Footer />
     </div>
   )
 }
