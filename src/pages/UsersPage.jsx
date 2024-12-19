@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion'
-import StatCard from '../components/StatCard'
+import StatCard from '../components/common/StatCard'
 import { UserCheck, UserPlus, UserX, UsersIcon } from 'lucide-react'
 
 import Header from '../components/common/Header'
