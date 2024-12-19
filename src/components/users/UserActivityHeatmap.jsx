@@ -11,7 +11,7 @@ const userActivityData = [
 	{ name: "Sun", "0-4": 80, "4-8": 100, "8-12": 120, "12-16": 140, "16-20": 160, "20-24": 90 },
 ];
 
-const UserActivityHeatmap = () => {
+const UserActivityHeatMap = () => {
 	return (
 		<motion.div
 			className='bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700'
@@ -46,4 +46,4 @@ const UserActivityHeatmap = () => {
 		</motion.div>
 	);
 };
-export default UserActivityHeatmap;
+export default UserActivityHeatMap;
