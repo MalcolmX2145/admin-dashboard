@@ -1,10 +1,7 @@
-// packages
 import { Route, Routes } from "react-router-dom"
-// pages
 import OverviewPage from "./pages/OverviewPage"
 import ProductsPage from "./pages/ProductsPage"
 import SalesPage from "./pages/SalesPage";
-// components
 import Sidebar from "./components/common/Sidebar"
 import UsersPage from "./pages/UsersPage"
 import OrdersPage from "./pages/OrdersPage";
