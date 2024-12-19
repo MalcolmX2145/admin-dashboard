@@ -5,7 +5,7 @@ import { UserCheck, UserPlus, UserX, UsersIcon } from 'lucide-react'
 import Header from '../components/common/Header'
 import UsersTable from '../components/users/UsersTable';
 import UserGrowthChart from '../components/users/UserGrowthChart';
-import UserActivityHeatMap from '../components/users/UserActivityHeatMap';
+import UserActivityHeatmap from '../components/users/UserActivityHeatmap';
 import UserDemographicsChart from '../components/users/UserDemographicsChart';
 import Footer from '../components/common/Footer';
 
@@ -50,7 +50,7 @@ const UsersPage = () => {
 				{/* USER CHARTS */}
 				<div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8'>
 					<UserGrowthChart />
-					<UserActivityHeatMap />
+					<UserActivityHeatmap />
 					<UserDemographicsChart />
 				</div>
 			</main>
