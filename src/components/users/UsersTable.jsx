@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 import { Edit, Search, Trash2 } from "lucide-react";
 
 const userData = [
-	{ id: 1, name: "Malclom Ekajja", email: "john@example.com", role: "Customer", status: "Active" },
+	{ id: 1, name: "Malcolm Ekajja", email: "john@example.com", role: "Customer", status: "Active" },
 	{ id: 2, name: "Saitoi Njapit", email: "jane@example.com", role: "Admin", status: "Active" },
 	{ id: 3, name: "Remy Richard", email: "bob@example.com", role: "Customer", status: "Inactive" },
 	{ id: 4, name: "Alice Brown", email: "alice@example.com", role: "Customer", status: "Active" },
